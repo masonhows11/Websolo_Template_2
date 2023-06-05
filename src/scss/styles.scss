@@ -1,0 +1,194 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/dist/css/bootstrap.rtl.min.css";
+
+@import "fonts.css";
+
+// css reset
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+body {
+        line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+
+nav ul {
+        list-style: none;
+}
+
+blockquote, q {
+        quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+
+a {
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+        background-color: #ff9;
+        color: #000;
+        text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+        background-color: #ff9;
+        color: #000;
+        font-style: italic;
+        font-weight: bold;
+}
+
+del {
+        text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+        border-bottom: 1px dotted;
+        cursor: help;
+}
+
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+// custom style
+
+body {
+    font-family: iransansdn, "sans-serif";
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.6rem;
+    background-color: orangered;
+}
+
+.btn-hire {
+    background-color: orange;
+    color: white;
+}
+
+.btn-resume {
+
+    background-color: lightcoral;
+    color: white;
+
+}
+
+.personal-info .hello {
+    font-size: 1.9rem;
+}
+
+.personal-info .name {
+    font-size: 3.8rem;
+}
+
+.personal-info .specialization {
+    font-size: 1.3rem;
+
+}
+
+.img-holder img {
+    height: 100%;
+    flex-grow: 1;
+}
+
+.header .widget {
+    position: relative;
+    max-width: 650px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border: 1px solid #dee2e6;
+    padding: 20px 0;
+    margin-top: -50px;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(173, 181, 189, 0.4);
+}
+
+.header .widget .widget-item {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+}
+
+.header .widget .widget-item h2 {
+    font-family: iransans_num, "sans-serif";
+   
+}
+
+
+.header .widget .widget-item h2,
+.header .widget .widget-item p {
+    color: black;
+
+    margin: 0;
+}
+
+.header .widget .widget-item p {
+    font-weight:600;
+    font-size: 1.1rem;
+}
