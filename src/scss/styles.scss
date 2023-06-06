@@ -325,12 +325,14 @@ body {
     line-height: 1.8;
 }
 
-/* service section */
+// service section
 
+.skills .subtitle,
 .services .subtitle {
     font-size: 1.3rem;
 }
 
+.skills .section-title,
 .services .section-title {
     font-size: 1.6rem;
     font-weight: 600;
@@ -399,3 +401,41 @@ body {
     font-size: 1.1rem;
     font-weight: 600;
 }
+
+// skills section
+
+.progress {
+    background: #eaf0fc;
+    border-radius: 0.2rem;
+    height: 3px;
+    margin-bottom: 30px;
+  }
+  
+  .progress .progress-bar {
+    position: relative;
+    height: 100%;
+    text-align: left;
+  }
+  
+  .progress .progress-bar span {
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    opacity: .7;
+    bottom: 18px;
+    right: -14px;
+  }
+  
+  .progress .progress-bar:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #ff7a57;
+    box-shadow: 0 0 10px rgba(255, 122, 87, 0.5);
+  }
+  
