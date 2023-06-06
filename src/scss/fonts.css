@@ -1,3 +1,4 @@
+/* iransans font */
 @font-face {
 	font-family:'iransansdn';
 	src: url("/src/fonts/iransansdn.eot")format('opentype');
@@ -58,3 +59,22 @@
     font-size: larger;
 }
 
+
+/* vazir font */
+@font-face {
+    font-family:'vazirMedium';
+    src: url("/src/fonts/Vazir-Medium.eot") format('opentype');
+    src: url("/src/fonts/Vazir-Medium.ttf")format("truetype");
+	src: url("/src/fonts/Vazir-Medium.woff2")format('woff2');
+    src: url("/src/fonts/Vazir-Medium.woff")format('woff');
+	font-weight: normal;
+}
+
+@font-face {
+    font-family:'vazirRegular';
+    src: url("/src/fonts/Vazir-Regular.eot") format('opentype');
+    src: url("/src/fonts/Vazir-Regular.ttf")format("truetype");
+	src: url("/src/fonts/Vazir-Regular.woff2")format('woff2');
+    src: url("/src/fonts/Vazir-Regular.woff")format('woff');
+	font-weight: normal;
+}

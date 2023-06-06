@@ -13,18 +13,75 @@ $fa-font-path: "@fortawesome/fontawesome-free/webfonts";
 @import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 
 // css reset
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -38,8 +95,17 @@ body {
     line-height: 1;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
@@ -47,12 +113,15 @@ nav ul {
     list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
     quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
 }
@@ -84,7 +153,8 @@ del {
     text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
     border-bottom: 1px dotted;
     cursor: help;
 }
@@ -104,14 +174,15 @@ hr {
     padding: 0;
 }
 
-input, select {
+input,
+select {
     vertical-align: middle;
 }
 
 // custom style
 
 body {
-    font-family: iransansdn, "sans-serif";
+    font-family: vazirRegular, "sans-serif";
 }
 
 .navbar .nav-item .nav-link {
@@ -129,21 +200,29 @@ body {
 // btn-hire
 .btn-hire {
     background-color: #ff7a57;
+    border: 2px solid #ff7a57;
     color: white;
 }
-.btn-hire:hover{
-    background-color: #f0623f;
-    color: white;
+
+.btn-hire:hover {
+    border: 2px solid #ff7a57;
+    background-color: white;
+    color: black;
 }
+
 // btn-resume
 .btn-resume {
     background-color: indigo;
+    border: 2px solid indigo;
     color: white;
 }
- .btn-resume:hover{
-    color:white;
-    background-color:  rgb(102, 22, 160);
-} 
+
+.btn-resume:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid indigo;
+
+}
 
 .personal-info .hello {
     font-size: 1.9rem;
@@ -193,7 +272,7 @@ body {
 
 .header .widget .widget-item h2 {
     font-family: iransans_num, "sans-serif";
-   
+
 }
 
 
@@ -205,25 +284,39 @@ body {
 }
 
 .header .widget .widget-item p {
-    font-weight:600;
+    font-weight: 600;
     font-size: 1.1rem;
 }
-.socials .social-item{
-   display: block;
-  margin: 0 5px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 2px solid #ff7a57;
-  color: #ff7a57;
-  text-align: center;
-  line-height: 40px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-decoration: none;
+
+.socials .social-item {
+    display: block;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff7a57;
+    color: #ff7a57;
+    text-align: center;
+    line-height: 40px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
 }
 
 .socials .social-item:hover {
     background: #ff7a57;
     color: #fff;
-  }
+}
+.about .title{
+    font-weight: bold;
+}
+.about .subtitle {
+    font-weight: 500;
+}
+
+.about .subtitle , .introduce{
+    font-size: 1.2rem;
+}
+.about .introduce{
+    line-height: 1.8;
+}
