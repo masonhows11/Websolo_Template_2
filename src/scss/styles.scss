@@ -623,10 +623,18 @@ body {
 .contact form :first-child{
     text-align: right;
 }
+.contact .form {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    //padding: 5px 0px 5px 0;
+}
 
 .contact .form form {
     margin-top: 30px;
 }
+
 
 .contact .contact-infor .item i {
     display: block;
@@ -652,19 +660,6 @@ body {
     -ms-flex-positive: 1;
     flex-grow: 1;
 }
-
-
-.contact .contact-infor {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center;
-  
-}
-
-
-
-
-
 
 .contact .contact-infor .item div h5 {
     margin-bottom: 10px;
@@ -727,15 +722,27 @@ body {
 // media query
 
 @media screen and (max-width:576px) {
-
-   
-       
-        .contact .contact-infor .item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
     
+    .contact .contact-header p{
+        line-height: 25px;
+        font-size:1rem;
+        
+    }
+    .contact-infor .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+
+    .contact-infor .item div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-infor .item div h5 {
+        margin: 20px 0 20px 0;
+        padding:5px 0 5px 0;
+    }
 }
