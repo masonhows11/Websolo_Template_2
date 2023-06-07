@@ -606,7 +606,6 @@ body {
 
 // contact me section
 .contact {
-    position: relative;
     border-radius: 0.3rem;
     border: 1px solid 1px;
     box-shadow: 1px 2px 6px rgba(173, 181, 189, 0.5);
@@ -621,38 +620,15 @@ body {
     background: #fff;
 }
 
-.contact .form {
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    border-right: 1px solid #dee2e6;
-    padding: 35px 30px 35px 0;
+.contact form :first-child{
+    text-align: right;
 }
 
 .contact .form form {
     margin-top: 30px;
 }
 
-.contact .contact-infos {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center;
-    margin-left: 30px;
-    min-width: 350px;
-}
-
-.contact .contact-infos .item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.contact .contact-infos .item i {
+.contact .contact-infor .item i {
     display: block;
     width: 40px;
     font-size: 16px;
@@ -668,7 +644,7 @@ body {
     margin-right: 15px;
 }
 
-.contact .contact-infos .item div {
+.contact .contact-infor .item div {
     border-bottom: 1px solid #dee2e6;
     margin-bottom: 25px;
     -webkit-box-flex: 1;
@@ -677,12 +653,25 @@ body {
     flex-grow: 1;
 }
 
-.contact .contact-infos .item div h5 {
+
+.contact .contact-infor {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  
+}
+
+
+
+
+
+
+.contact .contact-infor .item div h5 {
     margin-bottom: 10px;
     opacity: .9;
 }
 
-.contact .contact-infos .item div p {
+.contact .contact-infor .item div p {
     opacity: .7;
     font-size: 15px;
     margin-bottom: 4px;
@@ -693,19 +682,7 @@ body {
     font-weight: 600;
 }
 
-#map {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-  }
-  
-  #map iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
+
 
 // btn component
 .btn-custom-primary {
@@ -741,10 +718,24 @@ body {
 .page-footer {
     background: #fcfdff;
 }
-.page-footer .footer-copyright{
-    text-decoration:none;
-    color:#ff7a57;
+
+.page-footer .footer-copyright {
+    text-decoration: none;
+    color: #ff7a57;
 }
 
 // media query
 
+@media screen and (max-width:576px) {
+
+   
+       
+        .contact .contact-infor .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    
+}
