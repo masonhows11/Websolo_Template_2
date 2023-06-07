@@ -616,7 +616,6 @@ body {
     display: flex;
     max-width: 1000px;
     margin: 0 auto 50px;
-    z-index: 99;
     background: #fff;
 }
 
@@ -726,7 +725,8 @@ body {
     .contact .contact-header p{
         line-height: 25px;
         font-size:1rem;
-        
+        text-align:justify;
+
     }
     .contact-infor .item{
         display: flex;
