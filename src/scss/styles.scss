@@ -610,28 +610,36 @@ body {
     border: 1px solid 1px;
     box-shadow: 1px 2px 6px rgba(173, 181, 189, 0.5);
     padding: 0 30px 0 25px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
     max-width: 1000px;
     margin: 0 auto 50px;
     background: #fff;
 }
 
-.contact form :first-child{
+
+.contact-body{
+    border-radius: 0.5rem;
+    border: 1px solid 1px;
+    box-shadow: 1px 2px 6px rgba(173, 181, 189, 0.5);
+    background: #fff;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.contact-body form :first-child{
     text-align: right;
 }
-.contact .form {
+.contact-body .form {
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
-    flex-grow: 1;
-    //padding: 5px 0px 5px 0;
+     flex-grow: 1;
+     padding: 5px 0px 5px 0;
 }
 
-.contact .form form {
-    margin-top: 30px;
+.contact-body .form form {
+    margin-top: 10px;
 }
 
 
