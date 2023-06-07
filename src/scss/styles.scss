@@ -590,15 +590,17 @@ body {
     text-decoration: none;
     color: #ff7a57;
 }
-.blog .card-body p{
-    line-height:27px;
+
+.blog .card-body p {
+    line-height: 27px;
 }
+
 // hire me section
 .bg-custom-primary {
     background-color: #ff7a57 !important;
 }
 
-.hire-me .btn-light{
+.hire-me .btn-light {
     font-size: 1.1rem;
 }
 
@@ -617,40 +619,40 @@ body {
     margin: 0 auto 150px;
     z-index: 99;
     background: #fff;
-  }
-  
-  .contact .form {
+}
+
+.contact .form {
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     border-right: 1px solid #dee2e6;
     padding: 35px 30px 35px 0;
-  }
-  
-  .contact .form form {
+}
+
+.contact .form form {
     margin-top: 30px;
-  }
-  
-  .contact .contact-infos {
+}
+
+.contact .contact-infos {
     -webkit-align-self: center;
-        -ms-flex-item-align: center;
-            align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
     margin-left: 30px;
     min-width: 350px;
-  }
-  
-  .contact .contact-infos .item {
+}
+
+.contact .contact-infos .item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-  }
-  
-  .contact .contact-infos .item i {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.contact .contact-infos .item i {
     display: block;
     width: 40px;
     font-size: 16px;
@@ -664,57 +666,77 @@ body {
     padding: 0 !important;
     color: #ff7a57;
     margin-right: 15px;
-  }
-  
-  .contact .contact-infos .item div {
+}
+
+.contact .contact-infos .item div {
     border-bottom: 1px solid #dee2e6;
     margin-bottom: 25px;
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-  }
-  
-  .contact .contact-infos .item div h5 {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.contact .contact-infos .item div h5 {
     margin-bottom: 10px;
     opacity: .9;
-  }
-  
-  .contact .contact-infos .item div p {
+}
+
+.contact .contact-infos .item div p {
     opacity: .7;
     font-size: 15px;
     margin-bottom: 4px;
-  }
+}
 
-  .contact p{
+.contact p {
     font-size: 1rem;
-    font-weight:600;
-  }
+    font-weight: 600;
+}
 
-  // btn component
-  .btn-custom-primary {
+// btn component
+.btn-custom-primary {
     color: #fff;
     background-color: #ff7a57;
     border-color: #ff7a57;
-  }
-  
-  .btn-custom-primary:hover {
+}
+
+.btn-custom-primary:hover {
     color: #fff;
     background-color: #ff5c31;
     border-color: #ff5224;
-  }
-  
-  .btn-custom-primary:focus, .btn-custom-primary.focus {
+}
+
+.btn-custom-primary:focus,
+.btn-custom-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(222, 109, 80, 0.5);
-  }
-  
-  .btn-custom-primary.disabled, .btn-custom-primary:disabled {
+}
+
+.btn-custom-primary.disabled,
+.btn-custom-primary:disabled {
     color: #212529;
     background-color: #ff7a57;
     border-color: #ff7a57;
-  }
-  .btn-block {
+}
+
+.btn-block {
     display: block;
     width: 100%;
-  }
+}
+
 // footer section
+.page-footer {
+    background: #fcfdff;
+}
+
+// .page-footer p {
+//     margin-bottom: 0;
+// }
+
+// .page-footer .socials {
+//     max-width: 210px;
+//     margin-left: auto;
+// }
+
+// .page-footer .socials .social-item {
+//     margin-left: auto;
+// }
