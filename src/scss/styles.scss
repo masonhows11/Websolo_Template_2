@@ -753,4 +753,16 @@ body {
         margin: 20px 0 20px 0;
         padding:5px 0 5px 0;
     }
+
+    .navbar .navbar-nav {
+        margin-top:1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media  screen and (max-width:992px) {
+
+    
 }
