@@ -519,6 +519,9 @@ body {
 
 // clients
 
+.clients {
+    background-color: #fcfdff;
+}
 .testmonial-card {
     background: #fff;
     box-shadow: 2px 3px 10px rgba(206, 212, 218, 0.3);
@@ -787,6 +790,17 @@ body {
 
     .services .service-intro{
         font-size: 1.1rem;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .clients .carousel-control-prev , 
+    .clients .carousel-control-next{
+        display:none;
+    }
+
+    .clients .carousel-item .card-body p{
+        font-size: 1rem;
         line-height: 29px;
         text-align: center;
     }
