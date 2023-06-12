@@ -844,4 +844,8 @@ body {
         line-height: 30px;
         text-align: center;
     }
+    .clients .carousel-control-prev , 
+    .clients .carousel-control-next{
+        display:none;
+    }
 }
