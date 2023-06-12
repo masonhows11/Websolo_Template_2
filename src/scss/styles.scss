@@ -451,15 +451,20 @@ body {
 
 .img-wrapper {
     position: relative;
-    border-radius: 0.25rem;
+    border-radius: 0.80rem;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: block;
+    -webkit-border-radius: 0.80rem;
+    -moz-border-radius: 0.80rem;
+    -ms-border-radius: 0.80rem;
+    -o-border-radius: 0.80rem;
 }
 
 .img-wrapper img {
     cursor: pointer;
     position: relative;
+    height: 311px;
     width: 100%;
     z-index: 8;
 }
